@@ -11,9 +11,10 @@ public class Main extends JavaPlugin {
         new FlyCommand(this);
         new CraftCommand(this);
         new HorseCommand(this);
+        new ECCommand(this);
     }
     @Override
     public void onDisable(){
-        getLogger().info("Hello Worlds as stopped");
+        getLogger().info("Hello World as stopped");
     }
 }

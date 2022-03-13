@@ -20,3 +20,6 @@ commands:
   horse:
     aliases: [epona]
     description: summons a horse that you can ride
+  enderchest:
+    aliases: [ec]
+    descritption: opens your enderchest
