@@ -9,10 +9,8 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
-import org.bukkit.block.data.type.Fire;
 import me.akariiinnn.helloworld.libs.Library;
 
-import javax.annotation.Nullable;
 
 public class BurnCommand implements CommandExecutor{
 
@@ -47,6 +45,8 @@ public class BurnCommand implements CommandExecutor{
 
         if(p.hasPermission("burn.use")){
             loc.getBlock().setType(Material.FIRE);
+        }else{
+            p.sendMessage(Library.playerperms);
         }
         return false;
     }

@@ -1,5 +1,5 @@
 name: HelloWorld
-version: 1.1
+version: 1.2
 author: Akariiinnn
 main: me.akariiinnn.helloworld.Main
 description: My first Minecraft spigot plugin
@@ -12,3 +12,6 @@ commands:
   burn:
     aliases: [setonfire]
     description: sets the sender on fire
+  fly:
+    aliases: [superman]
+    description: makes you fly
