@@ -1,0 +1,14 @@
+name: HelloWorld
+version: 1.1
+author: Akariiinnn
+main: me.akariiinnn.helloworld.Main
+description: My first Minecraft spigot plugin
+api-version: 1.13
+
+commands:
+  hello:
+    aliases: [hi]
+    description: this is the hello command
+  burn:
+    aliases: [setonfire]
+    description: sets the sender on fire
