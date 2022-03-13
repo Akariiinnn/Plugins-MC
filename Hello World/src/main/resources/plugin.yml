@@ -1,5 +1,5 @@
 name: HelloWorld
-version: 1.2
+version: 1.2.2
 author: Akariiinnn
 main: me.akariiinnn.helloworld.Main
 description: My first Minecraft spigot plugin
@@ -15,3 +15,8 @@ commands:
   fly:
     aliases: [superman]
     description: makes you fly
+  craft:
+    description: opens a crafting table
+  horse:
+    aliases: [epona]
+    description: summons a horse that you can ride

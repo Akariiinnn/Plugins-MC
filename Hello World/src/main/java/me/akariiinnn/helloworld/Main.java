@@ -1,7 +1,5 @@
 package me.akariiinnn.helloworld;
-import me.akariiinnn.helloworld.commands.HelloCommand;
-import me.akariiinnn.helloworld.commands.BurnCommand;
-import me.akariiinnn.helloworld.commands.FlyCommand;
+import me.akariiinnn.helloworld.commands.*;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class Main extends JavaPlugin {
@@ -10,5 +8,7 @@ public class Main extends JavaPlugin {
     new HelloCommand(this);
     new BurnCommand(this);
     new FlyCommand(this);
+    new CraftCommand(this);
+    new HorseCommand(this);
     }
 }
