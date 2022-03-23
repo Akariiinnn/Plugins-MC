@@ -23,3 +23,6 @@ commands:
   enderchest:
     aliases: [ec]
     descritption: opens your enderchest
+  oops:
+    aliases: [nuke]
+    description: spawns TNT up in the sky
